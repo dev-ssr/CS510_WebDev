@@ -2,13 +2,24 @@
 If you would prefer, you can delete them and use your own classes and style declarations. */
 
 .container {
+  text-align: center;
   width: 300px;
+  border: 1px;
+  border-style: solid;
+  padding: 20px 10px 50px 10px;
 }
 
 .img {
   width: 100%;
 }
-
 .btn {
   width: 100%;
+  background-color:var(--navy);
+  color:var(--white);
+  height: 40px;
+  font-size: medium;
+}
+.btn:hover{
+  background-color:var(--orange);
+  color: var(--black);
 }

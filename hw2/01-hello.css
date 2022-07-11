@@ -4,3 +4,14 @@ If you would prefer, you can delete them and use your own classes and style defi
 .container {
   width: 50vw;
 }
+body{
+    text-align: center;
+    padding: 35mm;
+}
+p::first-line{
+  font-weight: bold;
+}
+#swe_img
+{
+  border-radius: 50mm;
+}

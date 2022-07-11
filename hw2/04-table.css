@@ -4,11 +4,26 @@ If you would prefer, you can delete them and use your own classes and style decl
 :root {
   --lightorange: rgba(255, 165, 0, 0.1);
 }
-
 .table-heading {
   /* use the custom properties green and white for the colors - these colors are defined in the styles.css file */
+background-color:var(--green);
+color:var(--white);
+padding: 8px 8px 8px 8px;
+column-width: 100px;
 }
 
 .channel {
   /* use the custom properties orange and black for the colors - these colors are defined in the styles.css file */
+  background-color:var(--orange);
+  color:var(--black);
+}
+tr:hover{
+  background-color:var(--lightorange);
+}
+td{
+  border: 1px solid;
+  padding: 8px 8px 8px 8px;
+}
+th{
+  border: 1px solid;
 }

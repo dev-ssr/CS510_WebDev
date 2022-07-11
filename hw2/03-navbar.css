@@ -2,15 +2,38 @@
 If you would prefer, you can delete them and use your own classes and style declarations. */
 
 body {
-  margin: 0;
+  margin:0;
 }
 
 .nav-list {
+  margin:0;
 }
 
 .list-item {
   background-color: var(--green);
+  padding: 30px;
+  width: 150px;
+  list-style: none;
+  float:left;
+  margin:0;
+}
+.nav-link {
+  
+ color:var(--white)
+}
+.nav-link:link{
+  text-decoration: none;
 }
 
-.nav-link {
+.nav-link:active{
+  color: var(--black);
+}
+.nav-link:focus{
+  color: var(--black);
+}
+.list-item:hover{
+  background-color: var(--orange);
+}
+.nav-link:hover{
+  color: var(--black);
 }
