@@ -13,9 +13,84 @@
     <link rel="stylesheet" href="hw-styles.css" />
   </head>
   <body>
-    <main>
-      <form>
-        <h1>Contact Form</h1>
+    <main class="container mt-4">
+      <form class="bg-light border rounded mx-auto p-2">
+        <h1 class="p-4">Contact Form</h1>
+        <div class="form-group mb-4">
+          <div class="row">
+            <div class="col-md-3">
+              <label for="username">Username:</label>
+            </div>
+            <div class="col-md-9">
+              <input type="text" name="username" class="form-control" />
+            </div>
+          </div>
+        </div>
+        <div class="form-group mb-4">
+          <div class="row">
+            <div class="col-md-3">
+              <label for="email">Email:</label>
+            </div>
+            <div class="col-md-9">
+              <input type="email" name="email" class="form-control" />
+            </div>
+          </div>
+        </div>
+        <div class="form-group mb-4">
+          <div class="row">
+            <div class="col-md-3">
+              <label for="pwd">Password:</label>
+            </div>
+            <div class="col-md-9">
+              <input type="password" name="pwd" class="form-control" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group">
+            Would you like to signup for the newsletter?
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <label class="form-check-label" for="flexRadioDefault1">
+                Yes, sign me up
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault2"
+                checked
+              />
+              <label class="form-check-label" for="flexRadioDefault2">
+                No, thank you
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-3">
+              <label for="date">Date:</label>
+            </div>
+            <div class="col-md-9">
+              <input type="date" name="date" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group mt-4"></div>
+          <button type="submit" class="btn btn-primary" style="width: 49%">
+            Submit
+          </button>
+          <button type="reset" class="btn btn-secondary" style="width: 49%">
+            Reset
+          </button>
+        </div>
       </form>
     </main>
   </body>

@@ -13,5 +13,6 @@ p::first-line{
 }
 #swe_img
 {
+  position: absolute;bottom: 0; left: 0;
   border-radius: 50mm;
 }
